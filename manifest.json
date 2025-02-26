@@ -1,11 +1,11 @@
 {
 	"id": "move-line-up",
 	"name": "Move line up",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
+	"description": "Move Line Plugin allows you to move the current line up or down in Obsidian.\n\nUsage:\n1. **Open a note** in Obsidian.\n2. **Place the cursor** on the line you wish to move.\n3. **Assign Hotkeys**:\n   - Go to **Settings > Hotkeys** and search for the commands `Move Line Up` and `Move Line Down`.\n   - Assign your preferred key combinations.\n4. **Move Lines**:\n   - Use the assigned hotkeys to shift lines up or down.",
 	"author": "Obsidian",
 	"authorUrl": "https://obsidian.md",
 	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+	"isDesktopOnly": true
 }
