@@ -14,6 +14,10 @@ export default class MyPlugin extends Plugin {
 	settings: MyPluginSettings;
 
 	async onload() {
+		this.addRibbonIcon('dice', 'Greet', () => {
+			new Notice('Hello, world!');
+		});
+
 		await this.loadSettings();
 
 		// This creates an icon in the left ribbon.
