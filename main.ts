@@ -5,6 +5,12 @@ export default class MoveLinePlugin extends Plugin {
 		this.addCommand({
 			id: 'move-line-up',
 			name: 'Move Line Up',
+			hotkeys: [
+				{
+					modifiers: ["Alt"],
+					key: "ArrowUp"
+				}
+			],
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				const cursor = editor.getCursor();
 				const lineIndex = cursor.line;
@@ -35,6 +41,12 @@ export default class MoveLinePlugin extends Plugin {
 		this.addCommand({
 			id: 'move-line-down',
 			name: 'Move Line Down',
+			hotkeys: [
+				{
+					modifiers: ["Alt"],
+					key: "ArrowDown"
+				}
+			],
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				const cursor = editor.getCursor();
 				const lineIndex = cursor.line;
